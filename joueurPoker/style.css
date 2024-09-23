@@ -1,0 +1,64 @@
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+.container-poker{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+#text-room{
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      width: 30%;
+      height: 50px;
+
+}
+#text-date{
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   width: 30%;
+   height: 50px;
+  
+}
+
+#text-room::placeholder{
+   color: rgb(160, 160, 160);
+   font-style: italic;
+}
+#text-date::placeholder{
+  
+ 
+   font-style: italic;
+}
+#btn-create-room{
+      width: 30%;
+      height: 50px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+}
+#room-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+
+}
